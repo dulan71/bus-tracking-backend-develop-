@@ -1,0 +1,60 @@
+# Ignore build, IDE, OS files
+# Standard .gitignore for Java (Maven) + IntelliJ IDEA
+
+# Maven
+target/
+!.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# IntelliJ IDEA
+.idea/
+*.iml
+out/
+
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Logs
+logs/
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment files
+.env
+.env.*
+
+# Temporary files
+*.tmp
+
+# Build directories
+/build/
+/dist/
+
+# Node / front-end (if any)
+node_modules/
+
+# VS Code
+.vscode/
+
+# Lock files
+*.lock
+
+# Spring Boot - keep local secrets out of the repository
+application.yml
+application.properties
+
+# Coverage
+coverage/
+*.lcov
